@@ -1,5 +1,6 @@
 .float-img {
 float: left;
+margin-top: 5px;
 margin-left: 200px;
 margin-right: 10px;
 margin-bottom: 5px;
@@ -9,6 +10,7 @@ padding; 5px;
   
 .right {
   float: right;
+  margin-top: 5px;
   margin-right: 200px;
   width: 30%;
   border: 1px solid #468499;
