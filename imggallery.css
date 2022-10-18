@@ -1,0 +1,23 @@
+.row {
+  margin: 8px -12px;
+}
+.row,
+.row > .column {
+  padding: 5px;
+}
+.column {
+  float: left;
+  width: 24%;
+}
+.content {
+  background-color: #fcf5ed;
+  padding: 4px;
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
