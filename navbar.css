@@ -29,7 +29,6 @@ li a:hover:not(.active) {
   border: 1px solid #73AD21;
   padding: 10px;
 }
-
 .button {
   background-color: #f4511e;
   border: none;
@@ -44,3 +43,4 @@ li a:hover:not(.active) {
   text-decoration: none;
   cursor: pointer;
 }
+.button:hover {opacity: 1}
