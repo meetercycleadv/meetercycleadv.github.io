@@ -6,7 +6,7 @@
   padding: 5px;
 }
 .column {
-  float: center;
+  float: left;
   width: 24%;
 }
 .content {
