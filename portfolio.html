@@ -36,26 +36,36 @@ body {
   background-color: #d0e0e3;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 5px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
   float: left;
-  width: 180px;
+  width: 25%;
+  display: none; /* Hide all elements by default */
 }
 
-div.gallery img:hover {
-  opacity: 1.0;
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
 </style>
 
 <body>
@@ -67,74 +77,29 @@ div.desc {
 </nav>
 
 <h3>Architecture</h3>
-
-<div class="gallery">
-  <a target="_blank" href="Images/Arch1.PNG">
-    <img src="Images/Arch1.PNG" alt="AGL Hub" width="850" height="600">
-  </a>
-  <div class="desc">Adani Hub at Tirppur</div>
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/Arch1.PNG" alt="AGL Hub" style="width:100%">
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/Arch2.PNG" alt="Diu Circuit House" style="width:100%">
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/Arch3.PNG" alt="SSA Daman" style="width:100%">
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/Arch4.PNG" alt="Interior Penthouse" style="width:100%">
+    </div>
+  </div>
 </div>
 
-<div class="gallery">
-  <a target="_blank" href="Images/Arch2.PNG">
-    <img src="Images/Arch2.PNG" alt="Circuit House" width="850" height="600">
-  </a>
-  <div class="desc">Circuit House at Diu</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="Images/Arch3.PNG">
-    <img src="Images/Arch3.PNG" alt="SSA" width="850" height="600">
-  </a>
-  <div class="desc">School at Daman</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="Images/Arch4.PNG">
-    <img src="Images/Arch4.PNG" alt="Interior" width="850" height="600">
-  </a>
-  <div class="desc">Interior Design of Penthouse</div>
-</div>
-
-<h3>Urban Planning</h3>
-
-
-<h3>Photography</h3>
-
-<div class="gallery">
-<img src="Images/Photo1.PNG" width="1000" height="750">
-</div>  
-  
-<div class="gallery">
-<img src="Images/Photo2.PNG" width="1000" height="750">
-</div>
-  
-<div class="gallery">
-<img src="Images/Photo3.PNG" width="1000" height="750">
-</div>
-
-<div class="gallery">
-<img src="Images/Photo4.PNG" width="1000" height="750">
-</div>
-
-<h3>Motorcycles</h3>
-
-<div class="gallery">
-<img src="Images/MC1.jpg">
-</div>
-
-<div class="gallery">
-<img src="Images/MC2.jpg">
-</div> 
-
-<div class="gallery">
-<img src="Images/MC3.jpg">
-</div>     
-
-<div class="gallery">
-<img src="Images/MC4.jpg">
-</div> 
- 
 </body>
 
 </html>
