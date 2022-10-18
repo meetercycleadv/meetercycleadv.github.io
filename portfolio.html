@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <title>Portfolio</title>
 </head>
+
 <style>
+
 nav {
   list-style-type: none;
   margin: 0;
@@ -11,11 +14,9 @@ nav {
   overflow: hidden;
   background-color: #547a83;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -23,19 +24,18 @@ li a {
   padding: 20px 30px;
   text-decoration: none;
 }
-
 li a:hover:not(.active) {
   background-color: #d9a27e;
 }
-
 .active {
   background-color: #d9a27e;
 }
-
 body {
   background-color: #d0e0e3;
 }
-
+h3 {
+  float: left;
+}
 .row {
   margin: 8px -12px;
 }
@@ -44,17 +44,23 @@ body {
 .row > .column {
   padding: 5px;
 }
-
 .column {
   float: left;
   width: 24.1%;
 }
-
 .content {
   background-color: white;
   padding: 8px;
 }
 
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+  
 </style>
 
 <body>
@@ -90,7 +96,28 @@ body {
 </div>
 
 <h3>Urban Planning</h3>
-  
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/UP1.PNG" alt="Bharuch Thesis" style="width:100%">
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/UP2.PNG" alt="Landscape Design" style="width:100%">
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/UP3.PNG" alt="Promanade Diu" style="width:100%">
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Images/UP4.PNG" alt="Streetscaping" style="width:100%">
+    </div>
+  </div>
+</div> 
 </body>
 
 </html>
