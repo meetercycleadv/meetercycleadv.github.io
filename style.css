@@ -52,6 +52,7 @@ li a:hover:not(.active) {
 .background{
     display: flex;
     background:url("Images/Photo1.PNG") no-repeat center;
+    height:100vh;
     opacity: 0.5;
     min-height:400px;
     background-size: cover;
@@ -61,22 +62,15 @@ li a:hover:not(.active) {
   border: 1px solid black;
   padding: 10px;
   margin-left: 50%;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: auto;
   text-align: justify;
 }
-
-
-
 
 /* Background Color & Font setting */
 
 body {
-  background-color: #eeeeee;
-}
-
-body {
-  font-family: "Monaco", monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* common Header settings for all pages */
