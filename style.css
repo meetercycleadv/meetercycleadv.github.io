@@ -51,7 +51,7 @@ li a:hover:not(.active) {
 
 .home{
     display: flex;
-    background:url("./images/banner.jpg") no-repeat center;
+    background:url("Images/Photo1.PNG") no-repeat center;
     height:100vh;
     color:#fff;
     min-height:500px;
