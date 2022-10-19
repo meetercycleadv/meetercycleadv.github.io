@@ -1,0 +1,133 @@
+/* Navigation bar */
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #547a83;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #d9a27e;
+}
+.active {
+  background-color: #d9a27e;
+}
+
+.right {
+  float: right;
+  margin-right: 200px;
+  width: 25%;
+  border: 1px solid #73AD21;
+  padding: 10px;
+}
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {opacity: 1}
+
+/* Image & Text Content for index page */
+
+.float-img {
+float: left;
+margin-top: 5px;
+margin-left: 200px;
+margin-right: 10px;
+margin-bottom: 5px;
+width: 30%;
+padding; 5px;
+}
+  
+.right {
+  float: right;
+  margin-top: 5px;
+  margin-right: 200px;
+  width: 30%;
+  border: 1px solid #468499;
+  padding: 5px;
+}
+
+/* Background Color & Font setting */
+
+body {
+  background-color: #eeeeee;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* common Header settings for all pages */
+
+h1 {
+  color: #21639e;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+h4 {
+  color: #21639e;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#myHeader {
+  background-color: #c0d6e4;
+  margin: 2px;
+  padding: 10px;
+}
+
+/* portfolio page text setup */
+
+h3 {
+  text-align: Left;
+  letter-spacing: 2px;
+}
+
+/* Imagegallery row-columns */
+
+.row {
+  margin: 8px -12px;
+}
+.row,
+.row > .column {
+  padding: 5px;
+}
+.column {
+  float: left;
+  width: 24%;
+}
+.content {
+  background-color: #fcf5ed;
+  padding: 4px;
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
