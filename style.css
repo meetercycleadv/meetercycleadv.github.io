@@ -87,6 +87,10 @@ h1 {
   text-align: center;
   letter-spacing: 5px;
 }
+h2 {
+  color: #21639e;
+  letter-spacing: 3px;
+}
 h3 {
   color: #21639e;
   letter-spacing: 2px;
@@ -104,13 +108,6 @@ h4 {
   margin: 2px;
   padding: 10px;
   opacity: 0.5;
-}
-
-/* portfolio page text setup */
-
-h3 {
-  text-align: Left;
-  letter-spacing: 2px;
 }
 
 /* Imagegallery row-columns */
