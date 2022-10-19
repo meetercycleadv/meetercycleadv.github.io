@@ -49,27 +49,25 @@ li a:hover:not(.active) {
 
 /* Image & Text Content for index page */
 
-.home{
+.background{
     display: flex;
     background:url("Images/Photo1.PNG") no-repeat center;
-    height:100vh;
-    color:#fff;
-    min-height:500px;
+    opacity: 0.5;
+    min-height:400px;
     background-size: cover;
     background-attachment: fixed;
-    font-family:'Ubuntu', sans-serif;
+}
+.intro {
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
 }
 
-/* Maximum width for flex box inside home section */
 
-.home .max-width{
-  width:100%;
-  display: flex;
-}
 
-.home .max-width .row{
-  margin-right:0;
-}
 
 /* Background Color & Font setting */
 
@@ -78,27 +76,34 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Monaco", monospace;
 }
 
 /* common Header settings for all pages */
 
 h1 {
   color: #21639e;
+  font size: 60px;
   text-align: center;
   letter-spacing: 5px;
 }
-
+h3 {
+  color: #21639e;
+  letter-spacing: 2px;
+}
 h4 {
   color: #21639e;
+  fontsize: 20px;
   text-align: center;
   letter-spacing: 2px;
 }
 
 #myHeader {
+  border-radius: 5px;
   background-color: #c0d6e4;
   margin: 2px;
   padding: 10px;
+  opacity: 0.5;
 }
 
 /* portfolio page text setup */
