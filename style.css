@@ -49,24 +49,26 @@ li a:hover:not(.active) {
 
 /* Image & Text Content for index page */
 
-.float-img {
-float: left;
-margin-top: 5px;
-margin-left: 200px;
-margin-right: 10px;
-margin-bottom: 5px;
-width: 30%;
-padding; 5px;
-  opacity: 1.0;
+.home{
+    display: flex;
+    background:url("./images/banner.jpg") no-repeat center;
+    height:100vh;
+    color:#fff;
+    min-height:500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Ubuntu', sans-serif;
 }
-  
-.right {
-  float: right;
-  margin-top: 5px;
-  margin-right: 200px;
-  width: 30%;
-  border: 1px solid #468499;
-  padding: 5px;
+
+/* Maximum width for flex box inside home section */
+
+.home .max-width{
+  width:100%;
+  display: flex;
+}
+
+.home .max-width .row{
+  margin-right:0;
 }
 
 /* Background Color & Font setting */
