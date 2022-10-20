@@ -1,18 +1,23 @@
-/* Navigation Bar styling for responsive design*/
-/* Reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_header */
 
 * {box-sizing: border-box;}
+
+/* fonts for the entire webpage fixed to Arial, Helvetica, sans-serif */
 
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navigation Bar styling for responsive design */
+/* Reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_header */
+
 .navbar {
   overflow: hidden;
   background-color: #f1f1f1;
   margin: 5px;
 }
+
+/* Text size, color, padding and margins set for Navigation Bar */
 
 .navbar a {
   float: left;
@@ -30,10 +35,14 @@ body {
   font-weight: bold;
 }
 
+/* tab changes color when mouse is hovering over it */
+
 .navbar a:hover {
   background-color: #ddd;
   color: black;
 }
+
+/* active class used to differentiate the color of the whichever tab is currently active */
 
 .navbar a.active {
   background-color: dodgerblue;
@@ -43,6 +52,8 @@ body {
 .navbar-right {
   float: right;
 }
+
+/* settings for the responsive design, if screenwidth goes less thn 500 px thn the nav bar collapses and texts are aligned to left */
 
 @media screen and (max-width: 500px) {
   .navbar a {
@@ -58,6 +69,7 @@ body {
 
 /* Background Image & home page Styling */
 /* reference source : https://www.w3schools.com/howto/howto_css_hero_image.asp */
+/* background Image assigned covering max of 95% hight of the viewport with images aligned to center of the screen */ 
 
 .bg-image {
   background-image: url("Images/BG.PNG");
@@ -89,24 +101,31 @@ body, html {
 }
 h1 {
   color: #21639e;
+  font-size: 50px;
   letter-spacing: 5px;
 }
 h2 {
   color: #21639e;
-  letter-spacing: 2px;
+  font-size: 30px;
+  letter-spacing: 3px;
   padding: 32px;
 }
 h3 {
   color: #21639e;
+  font-size: 20px;
   letter-spacing: 2px;
 }
 h4 {
   color: #21639e;
+  font-size: 15px;
   letter-spacing: 2px;
 }
 
 /* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
 /* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
+/* modification done to row-column grids and instead of multiple options for layout */
+/* since images to be uploaded were limited, I chose just 2 columns */
+/* since the sizes of the images were not similar, to make it visually neater I used flexible wrapping vis ms-flex */
 
 .row {
   display: -ms-flexbox;
@@ -116,7 +135,7 @@ h4 {
   padding: 0 15%;
 }
 .column {
-  -ms-flex: 50%; /* IE 10 */
+  -ms-flex: 50%;
   flex: 50%;
   padding: 0 4px;
 }
