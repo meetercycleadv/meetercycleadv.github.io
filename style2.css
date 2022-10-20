@@ -92,7 +92,9 @@ h1 {
 }
 h2 {
   color: #21639e;
-  letter-spacing: 3px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding; 32px
 }
 h3 {
   color: #21639e;
@@ -103,4 +105,24 @@ h4 {
   fontsize: 20px;
   text-align: center;
   letter-spacing: 2px;
+}
+
+/* Portfolio Image gallery row & Column boundary fixxing to keep it in line visually */
+/* reference source : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid */
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 15%;
+}
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
