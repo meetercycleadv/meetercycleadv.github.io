@@ -123,6 +123,7 @@ h4 {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+  width: 100%;
   opacity: 0.5;
 }
 .column img:hover{
